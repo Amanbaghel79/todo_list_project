@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: bisque;
+}
+form{
+    display: flex;
+    flex-direction: column; 
+}
+.container{
+    width: 80%;
+    background-color:white ;
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: auto;
+}
+.deco{
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+}
+.btn{
+    background-color: rgb(129, 39, 39);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(179, 90, 90);
+}
+.list{
+    background-color: rgb(237, 230, 230);
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+/* .list>div{
+    width: 100%;
+} */
+.remove{
+    background-color: rgb(204, 31, 31);
+    font-size: 1.3rem;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
